@@ -1,4 +1,3 @@
-from msilib.schema import Font
 import subprocess
 import requests
 import time
@@ -8,6 +7,7 @@ import os
 import colorama
 import ctypes
 
+from msilib.schema import Font
 from json import load
 from colorama import Fore
 from pystyle import Colors, Colorate , Anime ,Center
